@@ -1,0 +1,75 @@
+
+
+/*html {
+  background-color: #282828;
+}*/
+
+.navbar-default {
+  background-color: white;
+  /*background-image: url('../img/nav-bg.png');*/
+}
+
+
+
+
+.navbar {
+  margin-bottom: 0;
+  border-radius: 0;
+  padding: 1% 0;
+  font-size: 1.2em;
+  font-weight: 500;
+  border: 0;
+}
+
+.navbar-brand {
+  float: left;
+  min-height: 55px;
+  padding: 0 15px 15px;
+}
+
+.navbar-nav li a {
+  color: #5b5b5b;
+  font-weight: 500;
+
+}
+
+.spotify-player {
+  padding-left: 10%;
+  padding-right: 10%;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  height: 100%;
+  /*background-image: url('../img/print.png');*/
+}
+
+.bandcamp-player {
+  padding: 5%;
+}
+
+.shows {
+  width: 100%;
+  height: 100%;
+  padding-bottom: 10%;
+}
+
+.shows-table {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title {
+  margin: 0 auto;
+  display: block;
+  max-width: 80%;
+}
+
+.half {
+    -moz-transform:scale(0.5);
+    -webkit-transform:scale(0.5);
+    transform:scale(0.5);
+}
+
+td {
+  padding: 1%;
+}
