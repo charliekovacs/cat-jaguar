@@ -1,40 +1,4 @@
-
-.social-container {
-    max-width: 40%;
-}
-
-
-.social {
-  font-size: 3.6em;
-}
-
-.social-contact {
-  font-size: 10em;
-}
-
-.social-link {
-  color: #5b5b5b;
-  text-decoration: none;
-}
-
-.social-link:hover {
-  color: #e84a5f;
-}
-
-.social-link-contact {
-  color: #5b5b5b;
-  text-decoration: none;
-}
-
-.social-link-contact:hover {
-  color: #e84a5f;
-}
-
-.video {
-  width: 95%;
-}
-
-
+/* NAVIGATION */
 
 .navbar-default {
   background-color: white;
@@ -78,6 +42,11 @@
 }
 
 
+.video {
+  width: 95%;
+}
+
+
 .music-player {
   padding-left: 10%;
   padding-right: 10%;
@@ -88,9 +57,6 @@
   display: block;
 }
 
-.bandcamp-player {
-  padding: 5%;
-}
 
 .shows {
   padding-bottom: 5%;
@@ -110,4 +76,36 @@
 
 .about {
   width: 100%;
+}
+
+
+
+.social-container {
+    max-width: 40%;
+}
+
+.social {
+  font-size: 3.6em;
+}
+
+.social-link {
+  color: #5b5b5b;
+  text-decoration: none;
+}
+
+.social-link:hover {
+  color: #e84a5f;
+}
+
+.social-contact {
+  font-size: 10em;
+}
+
+.social-link-contact {
+  color: #5b5b5b;
+  text-decoration: none;
+}
+
+.social-link-contact:hover {
+  color: #e84a5f;
 }
