@@ -7,6 +7,7 @@
   <title>Cat Jaguar</title>
 
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
   <link href="css/styles.css" rel="stylesheet">
 </head>
 
@@ -28,11 +29,9 @@
 
     <div class="collapse navbar-collapse" id="myNavBar">
       <ul class="nav navbar-nav navbar-right">
-        <li class="active"><a href="#">Home</a></li>
-        <li><a class="navtext" href="#">Music</a></li>
-        <li><a class="navtext" href="#">Shows</a></li>
-        <li><a class="navtext" href="#">Contact</a></li>
-        <li><a class="navtext" href="#">About</a></li>
+        <li class="active"><a href="../index.html">Home</a></li>
+        <li><a class="navtext" href="contact/index.html">Contact</a></li>
+        <li><a class="navtext" href="about/index.html">About</a></li>
 
 
   </div>
@@ -40,67 +39,80 @@
 
 
 
-
-<div align="center" class="embed-responsive embed-responsive-16by9">
+<div align="center" class="container-fluid">
+<div align="center" class="embed-responsive embed-responsive-16by9 video">
   <video autoplay loop class="embed-responsive-item">
     <source src="img/cat-jag-fashion-show.mp4" type="video/mp4">
   </video>
 </div>
+</div>
 
 
 
-<div align="center" class="spotify-player">
+<div align="center" class="music-player">
   <img class="section-title half" src="img/music.png">
   <iframe src="https://open.spotify.com/embed?uri=spotify:user:spotify:playlist:3rgsDhGHZxZ9sB9DQWQfuf&theme=white" width="90%" height="300" frameborder="0" allowtransparency="true"></iframe>
 </div>
-
-<!--div align="center" class="bandcamp-player">
-  <iframe style="border: 0; width: 80%; height: 820px;" src="https://bandcamp.com/EmbeddedPlayer/album=3683350378/size=large/bgcol=ffffff/linkcol=0687f5/tracklist=false/transparent=true/" seamless><a href="http://catjaguar.bandcamp.com/album/peach">Peach by Cat Jaguar</a></iframe>
-</div-->
 
 <div class="container">
 
   <img class="section-title half" src="img/shows.png">
 
   <div align="center" class="shows">
-    <table class="shows-table">
-      <!--tr>
-        <th>Date</th>
-        <th>Venue</th>
-        <th>City</th>
-        <th>Link</th>
-      </tr-->
-      <tr>
-        <td class="shows-date">Nov 11</td>
-        <td class="venue">Cheer Up Charlie's</td>
-        <td class="location">Austin, TX</td>
-        <td><a href="https://www.facebook.com/events/369502230168717/" class="btn btn-default">RSVP</a></td>
-      </tr>
 
-      <tr>
-        <td class="shows-date">Nov 12</td>
-        <td class="venue">Spiderhouse Ballroom</td>
-        <td class="location">Austin, TX</td>
-        <td><a href="https://www.facebook.com/spiderhousecafe/" class="btn btn-default">RSVP</a></td>
-      </tr>
+    <div class="row shows">
+      <div class="col-xs-3">Nov 11</div>
+      <div class="col-xs-3">Cheer Up Charlie's</div>
+      <div class="col-xs-3">Austin, TX</div>
+      <div class="col-xs-3"><a href="https://www.facebook.com/events/369502230168717/" class="btn btn-default">RSVP</a></div>
+    </div>
 
-      <tr>
-        <td class="shows-date">Dec 22</td>
-        <td class="venue">Swan Dive</td>
-        <td class="location">Austin, TX</td>
-        <td><a href="https://www.facebook.com/swandiveaustin/" class="btn btn-default">RSVP</a></td>
-      </tr>
+    <div class="row shows">
+      <div class="col-xs-3">Nov 12</div>
+      <div class="col-xs-3">Spiderhouse Ballroom</div>
+      <div class="col-xs-3">Austin, TX</div>
+      <div class="col-xs-3"><a href="https://www.facebook.com/spiderhousecafe/" class="btn btn-default">RSVP</a></div>
+    </div>
 
-    </table>
+    <div class="row shows">
+      <div class="col-xs-3">Dec 05</div>
+      <div class="col-xs-3">Beerland</div>
+      <div class="col-xs-3">Austin, TX</div>
+      <div class="col-xs-3"><a href="https://www.facebook.com/Beerland-Texas-6792809646/" class="btn btn-default">RSVP</a></div>
+    </div>
+
+  </br></br></br>
+
   </div>
 
-
 </div>
 
 
-<div class="container">
-  <img class="section-title half" src="img/photos.png">
+
+
+<img align="center" class="section-title half" src="img/links.png">
+
+<div align="center" class="container social-container">
+
+  <div class="row">
+
+    <div class="col-xs-4 col-md-4">
+      <a class="social-link" href="https://www.facebook.com/catjaguarband/"><i class="social fa fa-facebook-square"></i></a>
+    </div>
+
+    <div class="col-xs-4 col-md-4">
+      <a class="social-link" href="https://www.instagram.com/cat.jaguar/"><i class="social fa fa-instagram"></i></a>
+    </div>
+
+    <div class="col-xs-4 col-md-4">
+      <a class="social-link" href="https://catjaguar.bandcamp.com/"><i class="social fa fa-bandcamp"></i></a>
+    </div>
+
+  </div>
+
+</br></br></br></br></br>
 </div>
+
 
 
 
