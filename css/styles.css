@@ -66,6 +66,20 @@
   padding-bottom: 5%;
 }
 
+
+.date {
+  font-weight: 700;
+}
+
+.venue {
+  font-weight: 700;
+}
+
+.location {
+  font-weight: 500;
+  font-style: italic;
+}
+
 .section-title {
   margin: 0 auto;
   display: block;
