@@ -1,3 +1,18 @@
+@font-face {
+  font-family: 'plumpfullblack';
+  src: url('../fonts/plumpfull-webfont.woff2') format('woff2'),
+       url('../fonts/plumpfull-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+
+.section-title2 {
+  font-family: 'plumpfullblack';
+  font-size: 5.0em;
+  color:#e84a5f;
+}
+
 /* NAVIGATION */
 
 .navbar-default {
